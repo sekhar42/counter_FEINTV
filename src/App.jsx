@@ -6,14 +6,17 @@ function App() {
   function increment(){
     setCount(count+1)
   }
+   function decrement(){
+    setCount(count-1)
+  }
 
 
   return (
     <>
       <h1>Counter App</h1>
-      <p>count {count}</p>
+      <p>count: {count}</p>
       <button onClick={increment}>Increment</button>
-      <button onClick={()=>setCount(count-1)}>Decrement</button>
+      <button onClick={decrement}>Decrement</button>
 
     </>
   )
