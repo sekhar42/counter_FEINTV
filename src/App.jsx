@@ -13,7 +13,7 @@ function App() {
       <h1>Counter App</h1>
       <p style={{ fontSize: "1.5rem"}}>count {count}</p>
       <button onClick={increment}>Increment</button>
-      <button onClick={()=>setCount(count-1)}>decrement</button>
+      <button onClick={()=>setCount(count-1)}>Decrement</button>
 
     </>
   )
